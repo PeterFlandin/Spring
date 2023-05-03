@@ -11,7 +11,7 @@ public class InvoiceService {
 
     public  void createInvoice(Invoice invoice){
 
-invoice.setNumber(String.valueOf(++lastNumber));
+invoice.setNumber(String.valueOf("INV_"+(++lastNumber)));
 
 invoiceRipository.create(invoice);
 
