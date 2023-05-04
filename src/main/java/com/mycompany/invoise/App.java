@@ -23,11 +23,11 @@ public class App
         int configuration = sc.nextInt();
         if(configuration == 1) {
             InvoiceController invoiceController = new InvoiceController();
-            invoiceController.createInvoiceUsingConnsole();
+            invoiceController.createInvoice();
 
         } else if(configuration == 2) {
             InvoiceControllerMichel invoiceControllerMichel = new InvoiceControllerMichel();
-            invoiceControllerMichel.createInvoiceUsingWebForm();
+            invoiceControllerMichel.createInvoice();
         }
     }
 

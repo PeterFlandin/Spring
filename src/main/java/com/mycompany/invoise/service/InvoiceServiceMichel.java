@@ -1,12 +1,11 @@
 package com.mycompany.invoise.service;
 
 import com.mycompany.invoise.entity.Invoice;
-import com.mycompany.invoise.repository.InvoiceRipository;
-import com.mycompany.invoise.repository.InvoiceRipositoryMichel;
+import com.mycompany.invoise.repository.InvoiceRepositoryInterface;
 
-public class InvoiceServiceMichel {
+public class InvoiceServiceMichel implements InvoiceServiceInterface{
 
-    private InvoiceRipositoryMichel invoiceRipository = new InvoiceRipositoryMichel();
+    private InvoiceRepositoryInterface invoiceRipository;
 
     private static long lastNumber = 112L;
 
@@ -19,7 +18,6 @@ invoiceRipository.create(invoice);
 
 
     }
-
 
 
 }

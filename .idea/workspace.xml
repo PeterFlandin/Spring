@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c0fb896-79ca-4684-a2ca-1237ecd86b94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/controller/InvoiceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/controller/InvoiceControllerMichel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/repository/InvoiceRipositoryMichel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/service/InvoiceServiceMichel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/controller/InvoiceControllerInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/repository/InvoiceRepositoryInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/service/InvoiceServiceInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/controller/InvoiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/controller/InvoiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/controller/InvoiceControllerMichel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/controller/InvoiceControllerMichel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/repository/InvoiceRipository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/repository/InvoiceRipository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/repository/InvoiceRipositoryMichel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/repository/InvoiceRipositoryMichel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/service/InvoiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/service/InvoiceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/service/InvoiceServiceMichel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/service/InvoiceServiceMichel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -123,13 +128,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681510053167</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="invoice michel">
+      <created>1683129394275</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683129394275</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Spring" />
     <MESSAGE value="maj jdk 19" />
-    <option name="LAST_COMMIT_MESSAGE" value="maj jdk 19" />
+    <MESSAGE value="invoice michel" />
+    <option name="LAST_COMMIT_MESSAGE" value="invoice michel" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

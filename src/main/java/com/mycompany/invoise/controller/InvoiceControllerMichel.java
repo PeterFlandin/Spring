@@ -1,24 +1,22 @@
 package com.mycompany.invoise.controller;
 
 import com.mycompany.invoise.entity.Invoice;
-import com.mycompany.invoise.service.InvoiceService;
-import com.mycompany.invoise.service.InvoiceServiceMichel;
-
-import java.util.Scanner;
-
-public class InvoiceControllerMichel {
+import com.mycompany.invoise.service.InvoiceServiceInterface;
 
 
+public class InvoiceControllerMichel implements InvoiceControllerInterface {
 
-    public static void createInvoiceUsingWebForm() {
+    private InvoiceServiceInterface invoiceService;
+
+
+    public void createInvoice() {
 
 
         String consumerName =  "Tesla";
         Invoice invoice = new Invoice();
         invoice.setCustomerName(consumerName);
 
-        InvoiceServiceMichel invoiceServiceMichel = new InvoiceServiceMichel();
-        invoiceServiceMichel.createInvoice(invoice);
+        invoiceService.createInvoice(invoice);
     }
 
 }
