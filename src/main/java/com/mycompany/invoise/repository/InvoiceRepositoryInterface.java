@@ -6,5 +6,4 @@ public interface InvoiceRepositoryInterface {
 
     void create (Invoice invoice);
 
-
 }
