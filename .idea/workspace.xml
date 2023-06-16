@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6c0fb896-79ca-4684-a2ca-1237ecd86b94" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/service/InvoiceServicePrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/service/InvoiceServicePrefix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -159,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686917391524</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="changement prefix et numerofacture">
+      <created>1686922051874</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686922051874</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -170,7 +176,8 @@
     <MESSAGE value="sans spring c'est chiant ..." />
     <MESSAGE value="avant spring" />
     <MESSAGE value="conteneur legé" />
-    <option name="LAST_COMMIT_MESSAGE" value="conteneur legé" />
+    <MESSAGE value="changement prefix et numerofacture" />
+    <option name="LAST_COMMIT_MESSAGE" value="changement prefix et numerofacture" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
