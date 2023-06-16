@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6c0fb896-79ca-4684-a2ca-1237ecd86b94" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/controller/InvoiceControllerWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/controller/InvoiceControllerWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/service/InvoiceServicePrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/service/InvoiceServicePrefix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -165,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686922051874</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ajout defaut auto wire">
+      <created>1686925296674</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686925296674</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -177,7 +186,8 @@
     <MESSAGE value="avant spring" />
     <MESSAGE value="conteneur legé" />
     <MESSAGE value="changement prefix et numerofacture" />
-    <option name="LAST_COMMIT_MESSAGE" value="changement prefix et numerofacture" />
+    <MESSAGE value="ajout defaut auto wire" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout defaut auto wire" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
