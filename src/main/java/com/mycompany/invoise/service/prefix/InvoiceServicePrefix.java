@@ -1,27 +1,29 @@
-package com.mycompany.invoise.service;
+package com.mycompany.invoise.service.prefix;
 
 
 import com.mycompany.invoise.entity.Invoice;
 import com.mycompany.invoise.repository.InvoiceRepositoryInterface;
+import com.mycompany.invoise.service.InvoiceServiceInterface;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
 
-public class InvoiceServicePrefix implements InvoiceServiceInterface{
+@Service
+public class InvoiceServicePrefix implements InvoiceServiceInterface {
 @Value("${invoice.lastNumber}")
     private long lastNumber;
 @Value("${invoice.prefix}")
     private String prefix;
 
 
-@Autowired
-    private InvoiceRepositoryInterface invoiceRepository;
+    private final InvoiceRepositoryInterface invoiceRepository;
+
+    public InvoiceServicePrefix(InvoiceRepositoryInterface invoiceRepository) {
+        this.invoiceRepository = invoiceRepository;
+    }
 
     public InvoiceRepositoryInterface getInvoiceRepository() {
         return invoiceRepository;
-    }
-
-    public void setInvoiceRepository(InvoiceRepositoryInterface invoiceRepository) {
-        this.invoiceRepository = invoiceRepository;
     }
 
     public void createInvoice(Invoice invoice){

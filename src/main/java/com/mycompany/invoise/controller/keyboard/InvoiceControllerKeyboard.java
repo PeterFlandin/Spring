@@ -1,20 +1,22 @@
-package com.mycompany.invoise.controller;
+package com.mycompany.invoise.controller.keyboard;
 
+import com.mycompany.invoise.controller.InvoiceControllerInterface;
 import com.mycompany.invoise.entity.Invoice;
 import com.mycompany.invoise.service.InvoiceServiceInterface;
+import org.springframework.stereotype.Controller;
 
 import java.util.Scanner;
+@Controller
+public class InvoiceControllerKeyboard implements InvoiceControllerInterface {
 
-public class InvoiceControllerKeyboard implements InvoiceControllerInterface  {
+    public InvoiceControllerKeyboard(InvoiceServiceInterface invoiceService) {
+        this.invoiceService = invoiceService;
+    }
 
-private InvoiceServiceInterface invoiceService;
+    private final InvoiceServiceInterface invoiceService;
 
     public InvoiceServiceInterface getInvoiceService() {
         return invoiceService;
-    }
-
-    public void setInvoiceService(InvoiceServiceInterface invoiceService) {
-        this.invoiceService = invoiceService;
     }
 
     public void createInvoice() {
@@ -26,6 +28,7 @@ private InvoiceServiceInterface invoiceService;
 
     invoiceService.createInvoice(invoice);
 }
+
 
 
 }
