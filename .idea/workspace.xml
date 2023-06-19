@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c0fb896-79ca-4684-a2ca-1237ecd86b94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/invoise/AppConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +65,7 @@
       <recent name="C:\Users\Administrateur\Desktop\DocSpring\Spring\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mycompany.invoise" />
       <recent name="com.mycompany.invoise.repository" />
       <recent name="com.mycompany.invoise.service" />
     </key>
@@ -195,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687170997455</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ajout appconfig">
+      <created>1687178615733</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1687178615733</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -211,7 +219,8 @@
     <MESSAGE value="ajout de context dans le code ressources" />
     <MESSAGE value="application properties @value" />
     <MESSAGE value="organisation des dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="organisation des dependencies" />
+    <MESSAGE value="ajout appconfig" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout appconfig" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
