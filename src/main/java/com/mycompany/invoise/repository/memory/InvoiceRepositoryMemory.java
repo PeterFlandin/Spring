@@ -20,5 +20,10 @@ invoices.add(invoice);
 
     }
 
+    @Override
+    public List<Invoice> list() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
 
 }
