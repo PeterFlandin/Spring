@@ -2,6 +2,14 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>3.1.0</version>
+    <relativePath/> <!-- lookup parent from repository -->
+  </parent>
+
+
   <groupId>com.mycompany.invoise</groupId>
   <artifactId>core</artifactId>
   <version>1.0-SNAPSHOT</version>
@@ -20,23 +28,10 @@
   <dependencies>
 
     <dependency>
-
       <groupId>org.springframework.boot</groupId>
-
-      <artifactId>spring-boot-autoconfigure</artifactId>
-
-      <version>3.1.0</version>
-
+      <artifactId>spring-boot-starter</artifactId>
     </dependency>
-    <dependency>
 
-      <groupId>org.springframework</groupId>
-
-      <artifactId>spring-context</artifactId>
-
-      <version>6.0.9</version>
-
-    </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -44,4 +39,14 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+
 </project>

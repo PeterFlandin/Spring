@@ -17,7 +17,7 @@ public class App
 
     // ApplicationContext context = new AnnotationConfigApplicationContext(App.class, App.class);
 
-ApplicationContext context = SpringApplication.run(App.class);
+ApplicationContext context = SpringApplication.run(App.class, args);
   InvoiceControllerInterface invoiceController = context.getBean(InvoiceControllerInterface.class);
 
 invoiceController.createInvoice();
