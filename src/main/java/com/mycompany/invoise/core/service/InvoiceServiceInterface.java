@@ -1,6 +1,6 @@
-package com.mycompany.invoise.service;
+package com.mycompany.invoise.core.service;
 
-import com.mycompany.invoise.entity.Invoice;
+import com.mycompany.invoise.core.entity.Invoice;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
